@@ -40,7 +40,7 @@ function App() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      if (popups.length < 20) {
+      if (popups.length < 30) {
         setPopups((prev) => [...prev, Date.now()]);
       } else {
         clearInterval(timer);
@@ -57,6 +57,11 @@ function App() {
   return (
     <ThemeProvider theme={original}>
       <div className="h-screen w-screen flex justify-center items-center bg-teal-600 relative overflow-hidden">
+
+        <div className='absolute '>
+
+        </div>
+
         <div className="absolute bottom-4 right-4 flex items-center z-[50]">
           <a href="https://x.com/" className="transition ease-in-out duration-150">
             <svg
