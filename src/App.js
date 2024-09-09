@@ -25,7 +25,7 @@ const Popup = ({ onClose }) => {
       className="max-w-[90%] max-h-[90%] sm:w-64 sm:h-40 md:w-72 md:h-48 font-custom"
     >
       <WindowContent className="flex flex-col justify-between h-full relative">
-        <div className='absolute top-2 text-[9px] md:text-sm'>CA: updating...</div>
+        <div className='absolute top-2 text-[9px] md:text-sm'>CA: AfQdmzMDzFeySbEYYWcuNhbHFczxZ3T819rJfNaQpump</div>
         <img src={spam} alt="Spam" className="max-w-full max-h-[80%] object-contain" />
         <Button onClick={onClose} className="self-end">
           Close
